@@ -97,11 +97,9 @@ nav img {
     background:#f44336 ;
     transition: 1s;
 }
-<<<<<<< HEAD
-nav.fa{
-=======
+
 nav .fa{
->>>>>>> a9053941223a6b80fe523f5fea54f8dcd08086fc
+
     display: none;
 }
 @media(max-width: 700px){
@@ -120,7 +118,6 @@ nav .fa{
         right: -200px;
         text-align: left;
         z-index: 2;
-<<<<<<< HEAD
         transition: 1s;
     }
     nav.fa{
@@ -135,8 +132,7 @@ nav .fa{
     }
     
 }
-=======
-        transition:1s;
+
     }
     nav .fa{
         display: block;
@@ -266,5 +262,3 @@ padding-top:50px;
 
 
 
-
->>>>>>> a9053941223a6b80fe523f5fea54f8dcd08086fc
