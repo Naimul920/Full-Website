@@ -273,11 +273,8 @@ text-align: left;
 }
 .testimonial-col img{
     height: 40px;
-    margin-left: 5px;
     margin-right: 30px;
-    border-radius: 50%;
-    margin-left: 20%;
-
+    border-radius: 50%;    
 }
 .testimonial-col p{
     padding: 0;
@@ -286,10 +283,7 @@ text-align: left;
     margin-top: 15px;
     text-align: left;
 }
-.naim{
-    padding-left: 100px;
-    background: chartreuse;
-}
+
 
 
 
