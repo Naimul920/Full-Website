@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <title>University Website Design</title>
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="">HOME</a> </li>
+                    <li> <a href="">ABOUT</a> </li>
+                    <li> <a href="">COURSE</a> </li>
+                    <li> <a href="">BLOG</a> </li>
+                    <li> <a href="">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!---about us contant---->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <p>Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio.
+                    Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de
+                    Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor
+                    de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras
+                    de la
+                    lengua del latín, "consecteur", en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos
+                    del latín,
+                    descubrió la fuente indudable. Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de "de Finnibus
+                    Bonorum
+                    et Malorum" (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este
+                    libro es
+                    un tratado de teoría de éticas, muy popular durante el Renacimiento.La primera linea del Lorem
+                    Ipsum,
+                    "Lorem ipsum dolor sit amet..", viene de una linea en la sección 1.10.32</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+
+    </section>
+
+    <!-----------Footer----------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This medication is used to treat anxiety. Lorazepam belongs to a
+            class of drugs known as benzodiazepines which act on the brain and
+            <br>nerves (central nervous system) to produce a calming effect.
+            This drug works by enhancing the effects of
+            a certain natural chemical in the body
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-github"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+        <p>Made With <i class="fa fa-heart-o"></i> by MD Naimul Islam </p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
